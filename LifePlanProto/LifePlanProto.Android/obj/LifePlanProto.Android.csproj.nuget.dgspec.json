@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto.Android\\LifePlanProto.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto.Android\\LifePlanProto.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto.Android\\LifePlanProto.Android.csproj",
+        "projectName": "LifePlanProto.Android",
+        "projectPath": "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto.Android\\LifePlanProto.Android.csproj",
+        "packagesPath": "C:\\Users\\kodai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kodai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto\\LifePlanProto.csproj": {
+                "projectPath": "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto\\LifePlanProto.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.9.5.7, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1269, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto\\LifePlanProto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto\\LifePlanProto.csproj",
+        "projectName": "LifePlanProto",
+        "projectPath": "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto\\LifePlanProto.csproj",
+        "packagesPath": "C:\\Users\\kodai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kodai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.9.5.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1269, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

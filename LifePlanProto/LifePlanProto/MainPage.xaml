@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LifePlanProto.MainPage">
+
+    <StackLayout>
+        <!--タイトル-->
+        <Frame BackgroundColor="Blue" Padding="20" CornerRadius="0">
+            <Label Text="ライフプラン・シミュレーター"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"
+                   FontSize="24"
+                   FontAttributes = "Bold"/>
+        </Frame>
+
+        <!--画像の表示-->
+        <Image VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Source="animal_crossing.jpg" />
+
+        <!--紹介文-->
+        <Label Text="いくつかの簡単な質問に答えて、あなたのライフプランをシミュレーションしてみましょう。"
+                HorizontalTextAlignment="Start"
+                TextColor="DarkBlue"
+                FontSize="20"
+                Padding="10"/>
+
+        <!--開始ボタン-->
+        <Button Text="開始"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Clicked="Button_Clicked"
+                HeightRequest="60"
+                WidthRequest="200"
+                FontSize="24"
+                FontAttributes = "Bold"
+                HorizontalOptions="Center"/>
+        
+    </StackLayout>
+</ContentPage>

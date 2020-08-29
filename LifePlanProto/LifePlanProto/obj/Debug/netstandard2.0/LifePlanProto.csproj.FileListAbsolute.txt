@@ -1,0 +1,16 @@
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\bin\Debug\netstandard2.0\LifePlanProto.deps.json
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\bin\Debug\netstandard2.0\LifePlanProto.dll
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\bin\Debug\netstandard2.0\ref\LifePlanProto.dll
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\bin\Debug\netstandard2.0\LifePlanProto.pdb
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\LifePlanProto.csprojAssemblyReference.cache
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\EntryPage.xaml.g.cs
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\ResultPage.xaml.g.cs
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\LifePlanProto.AssemblyInfoInputs.cache
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\LifePlanProto.AssemblyInfo.cs
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\LifePlanProto.dll
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\ref\LifePlanProto.dll
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\LifePlanProto.pdb
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\LifePlanProto.csproj.CoreCompileInputs.cache
+C:\Users\kodai\Documents\Programming\C#\Xamarin\LifePlanSimulator\LifePlanProto\LifePlanProto\obj\Debug\netstandard2.0\XamlC.stamp

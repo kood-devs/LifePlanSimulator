@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LifePlanProto.EntryPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--タイトル-->
+            <Frame BackgroundColor="Blue" Padding="20" CornerRadius="0">
+                <Label Text="ライフプラン・シミュレーター"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"
+                   FontSize="24"
+                   FontAttributes = "Bold"/>
+            </Frame>
+
+            <Label Text="下記の質問に回答してください。" 
+                   TextColor="DarkBlue"
+                   FontSize="20"/>
+
+            <!-- 入力フォーム -->
+            <Grid HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" RowSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- 質問項目の列挙 -->
+                <Label Grid.Row="1" Text="Q1.現在の年齢は？（歳）"  TextColor="DarkBlue" FontSize="18"/>
+                <Entry x:Name="inputAge" Grid.Row="2" Grid.Column="1" Keyboard="Numeric"/>
+                <Label Grid.Row="3" Text="Q2.現在の年収は？（万円）" TextColor="DarkBlue" FontSize="18"/>
+                <Entry x:Name="inputAnnualIncome" Grid.Row="4" Grid.Column="1" Keyboard="Numeric"/>
+                <Label Grid.Row="5" Text="Q3.毎月の支出は？（万円）" TextColor="DarkBlue" FontSize="18"/>
+                <Entry x:Name="inputMonthlyExpenditure" Grid.Row="6" Grid.Column="1" Keyboard="Numeric" />
+            </Grid>
+
+            <!--結果を表示ボタン-->
+            <Button Text="結果を表示"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Clicked="Button_Clicked"
+                HeightRequest="60"
+                WidthRequest="200"
+                FontSize="24"
+                FontAttributes = "Bold"
+                HorizontalOptions="Center"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

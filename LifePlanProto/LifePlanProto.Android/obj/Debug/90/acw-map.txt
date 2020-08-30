@@ -4,6 +4,12 @@ lifeplanproto.droid.MainActivity;crc6416844591b7a44ebc.MainActivity
 Microcharts.Droid.ChartView, Microcharts.Droid;crc64e9f97cf19b8286a9.ChartView
 Microcharts.Droid.ChartView;crc64e9f97cf19b8286a9.ChartView
 microcharts.droid.ChartView;crc64e9f97cf19b8286a9.ChartView
+OxyPlot.Xamarin.Android.PlotView, OxyPlot.Xamarin.Android;crc6456e6f71a0b54d12a.PlotView
+OxyPlot.Xamarin.Android.PlotView;crc6456e6f71a0b54d12a.PlotView
+oxyplot.xamarin.android.PlotView;crc6456e6f71a0b54d12a.PlotView
+OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer, OxyPlot.Xamarin.Forms.Platform.Android;crc641fdf74f75d055456.PlotViewRenderer
+OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer;crc641fdf74f75d055456.PlotViewRenderer
+oxyplot.xamarin.forms.platform.android.PlotViewRenderer;crc641fdf74f75d055456.PlotViewRenderer
 SkiaSharp.Views.Android.GLTextureView, SkiaSharp.Views.Android;crc648e35430423bd4943.GLTextureView
 SkiaSharp.Views.Android.GLTextureView;crc648e35430423bd4943.GLTextureView
 skiasharp.views.android.GLTextureView;crc648e35430423bd4943.GLTextureView

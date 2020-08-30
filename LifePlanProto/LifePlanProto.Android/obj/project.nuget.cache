@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "7t170Ad+tQVdQZJmQCgL2hcgbQfxJSpx65VPCL+v1sl6nuUoL5L3vUbvMC4IIdDhUyCXdkwP4RQmV1vBFalKDQ==",
+  "dgSpecHash": "GDv273af898cKnEZ/5VqxZPhQjGeCzkJAeFL7S5oSH1OMQZeAuw9rVP2/6nmpeScal3SBOKtrBc+na1yRmYhIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto.Android\\LifePlanProto.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kodai\\.nuget\\packages\\harfbuzzsharp\\2.6.1.6\\harfbuzzsharp.2.6.1.6.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\microcharts\\0.9.5.7\\microcharts.0.9.5.7.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\microcharts.forms\\0.9.5.7\\microcharts.forms.0.9.5.7.nupkg.sha512",
+    "C:\\Users\\kodai\\.nuget\\packages\\oxyplot.core\\2.0.0\\oxyplot.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\kodai\\.nuget\\packages\\oxyplot.xamarin.android\\1.0.0\\oxyplot.xamarin.android.1.0.0.nupkg.sha512",
+    "C:\\Users\\kodai\\.nuget\\packages\\oxyplot.xamarin.forms\\1.0.0\\oxyplot.xamarin.forms.1.0.0.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\skiasharp\\2.80.1\\skiasharp.2.80.1.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\skiasharp.views\\2.80.1\\skiasharp.views.2.80.1.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\skiasharp.views.forms\\2.80.1\\skiasharp.views.forms.2.80.1.nupkg.sha512",

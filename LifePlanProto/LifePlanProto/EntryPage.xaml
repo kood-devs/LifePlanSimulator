@@ -23,6 +23,11 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
@@ -36,6 +41,8 @@
                 <Entry x:Name="inputAnnualIncome" Grid.Row="4" Grid.Column="1" Keyboard="Numeric"/>
                 <Label Grid.Row="5" Text="Q3.毎月の支出は？（万円）" TextColor="DarkBlue" FontSize="18"/>
                 <Entry x:Name="inputMonthlyExpenditure" Grid.Row="6" Grid.Column="1" Keyboard="Numeric" />
+                <Label Grid.Row="7" Text="Q4.現在の資産総額は？（万円）" TextColor="DarkBlue" FontSize="18"/>
+                <Entry x:Name="inputAsset" Grid.Row="8" Grid.Column="1" Keyboard="Numeric" />
             </Grid>
 
             <!--結果を表示ボタン-->

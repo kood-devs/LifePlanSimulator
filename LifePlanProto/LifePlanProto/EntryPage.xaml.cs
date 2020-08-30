@@ -20,9 +20,15 @@ namespace LifePlanProto
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            // ResultPageに推移
-            // コンストラクタにユーザの入力を渡す
-            ResultPage resultPage = new ResultPage(int.Parse(inputAge.Text), ulong.Parse(inputAnnualIncome.Text));
+            // スクレイプ情報を整形
+            Dictionary<string, long> userInput = new Dictionary<string, long> { };
+            userInput["age"] = long.Parse(inputAge.Text);
+            userInput["income"] = long.Parse(inputAnnualIncome.Text) * 10000;
+            userInput["expenditure"] = long.Parse(inputMonthlyExpenditure.Text) * 10000 * 12;
+            userInput["asset"] = long.Parse(inputAsset.Text) * 10000;
+
+            // スクレイプ情報をコンストラクタに渡す
+            ResultPage resultPage = new ResultPage(userInput);
             Navigation.PushAsync(resultPage);
         }
     }

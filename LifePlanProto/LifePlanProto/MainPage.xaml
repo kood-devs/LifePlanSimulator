@@ -16,14 +16,14 @@
         <!--画像の表示-->
         <Image VerticalOptions="Center"
                HorizontalOptions="Center"
-               Source="animal_crossing.jpg" />
+               Source="lifeplan_image.jpg" />
 
         <!--紹介文-->
         <Label Text="いくつかの簡単な質問に答えて、あなたのライフプランをシミュレーションしてみましょう。"
-                HorizontalTextAlignment="Start"
-                TextColor="DarkBlue"
-                FontSize="20"
-                Padding="10"/>
+               HorizontalTextAlignment="Start"
+               TextColor="DarkBlue"
+               FontSize="20"
+               Padding="10"/>
 
         <!--開始ボタン-->
         <Button Text="開始"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KDCs5LYehSw85thFtICd0aG1msja+StqChpkMbeOEa9R/gxHy4Cne7y6vTXrinxag1IQmUQ+hAkYVCmLxPOpMg==",
+  "dgSpecHash": "xolMDyejYDhtRCzm+7t59SAzOqbTDTZo+kXXrtAENe9GCB1CBceuStWfsyVXyXHMQyCSi1/LZ73xW+1DrG2bmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kodai\\Documents\\Programming\\C#\\Xamarin\\LifePlanSimulator\\LifePlanProto\\LifePlanProto\\LifePlanProto.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,6 @@
     "C:\\Users\\kodai\\.nuget\\packages\\microcharts.forms\\0.9.5.7\\microcharts.forms.0.9.5.7.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\kodai\\.nuget\\packages\\oxyplot.core\\2.0.0\\oxyplot.core.2.0.0.nupkg.sha512",
-    "C:\\Users\\kodai\\.nuget\\packages\\oxyplot.xamarin.forms\\1.0.0\\oxyplot.xamarin.forms.1.0.0.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\skiasharp\\2.80.1\\skiasharp.2.80.1.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\skiasharp.views.forms\\2.80.1\\skiasharp.views.forms.2.80.1.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
@@ -22,16 +20,5 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\kodai\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "パッケージ 'OxyPlot.Xamarin.Forms 1.0.0' はプロジェクトのターゲット フレームワーク '.NETStandard,Version=v2.0' ではなく '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' を使用して復元されました。このパッケージは、使用しているプロジェクトとの完全な互換性がない可能性があります。",
-      "libraryId": "OxyPlot.Xamarin.Forms",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -10865,40 +10865,40 @@ namespace LifePlanProto.Droid
 			public const int abc_vector_test = 2131165267;
 			
 			// aapt resource value: 0x7F070054
-			public const int animal_crossing = 2131165268;
+			public const int avd_hide_password = 2131165268;
 			
 			// aapt resource value: 0x7F070055
-			public const int avd_hide_password = 2131165269;
+			public const int avd_show_password = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int avd_show_password = 2131165270;
+			public const int design_bottom_navigation_item_background = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int design_bottom_navigation_item_background = 2131165271;
+			public const int design_fab_background = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int design_fab_background = 2131165272;
+			public const int design_ic_visibility = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int design_ic_visibility = 2131165273;
+			public const int design_ic_visibility_off = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int design_ic_visibility_off = 2131165274;
+			public const int design_password_eye = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int design_password_eye = 2131165275;
+			public const int design_snackbar_background = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int design_snackbar_background = 2131165276;
+			public const int ic_mtrl_chip_checked_black = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int ic_mtrl_chip_checked_black = 2131165277;
+			public const int ic_mtrl_chip_checked_circle = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int ic_mtrl_chip_checked_circle = 2131165278;
+			public const int ic_mtrl_chip_close_circle = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int ic_mtrl_chip_close_circle = 2131165279;
+			public const int lifeplan_image = 2131165279;
 			
 			// aapt resource value: 0x7F070060
 			public const int mtrl_snackbar_background = 2131165280;

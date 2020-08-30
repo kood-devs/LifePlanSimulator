@@ -88,15 +88,14 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\lifeplan_image.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LifePlanProto\LifePlanProto.csproj">
       <Project>{B38E346F-99E5-4751-A563-012525E212EF}</Project>
       <Name>LifePlanProto</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\animal_crossing.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

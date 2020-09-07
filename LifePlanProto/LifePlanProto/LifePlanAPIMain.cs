@@ -27,6 +27,10 @@ namespace LifePlanProto
             // 計算結果を格納（デバッグ用）
             Dictionary<string, List<long>> result = new Dictionary<string, List<long>> { };
 
+
+            /* ------------------------------
+             *  個別項目
+            ------------------------------*/
             // 年齢を計算
             HouseHolderAge ageGenerator = new HouseHolderAge(userInput["age"]);
             result["Age"] = ageGenerator.GenHouseHolderAge();
@@ -35,10 +39,46 @@ namespace LifePlanProto
             AnnualIncome incomeGenerator = new AnnualIncome(userInput["age"], userInput["income"]);
             result["AnnualIncome"] = incomeGenerator.GenWageCurve();
 
+            // 年金カーブを作成
+            Pension pensionGenerator = new Pension(userInput["age"]);
+            result["Pension"] = pensionGenerator.GenPensionCurve();
+
             // 支出カーブを作成
             AnnualExpenditure expGenerator = new AnnualExpenditure(userInput["age"], userInput["expenditure"]);
             result["AnnualExpenditure"] = expGenerator.GenExpenditureCurve();
 
+
+            /* ------------------------------
+             *  合算処理
+            ------------------------------*/
+            // キャッシュインフロー総額を計算
+            List<long> cashInFlow = new List<long> { };
+            // 合算する系列名をリストに格納
+            List<string> nameCashInFlow = new List<string> {
+                "AnnualIncome", "Pension",
+            };
+
+            long thisCashInFlow;
+            for (int i = 0; i < result["Age"].Count; i++)
+            {
+                thisCashInFlow = 0;
+                foreach (string name in nameCashInFlow)
+                {
+                    thisCashInFlow += result["name"][i];
+                }
+                cashInFlow.Add(thisCashInFlow);
+            }
+            result["CashInFlow"] = cashInFlow;
+
+            // キャッシュアウトフロー総額を計算
+            List<long> cashOutFlow = new List<long> { };
+            long thisCashOutFlow;
+            for (int i = 0; i < result["Age"].Count; i++)
+            {
+                thisCashOutFlow = result["AnnualExpenditure"][i];
+                cashOutFlow.Add(thisCashOutFlow);
+            }
+            result["CashOutFlow"] = cashOutFlow;
 
             // 資産総額推移を計算
             List<long> asset = new List<long> { };
@@ -54,7 +94,7 @@ namespace LifePlanProto
         }
 
         // Microchartsグラフのエントリーを作成する関数
-        // 本当は複数のグラフを重ねて表示したい
+        // 本当は複数のグラフを重ねて表示したい...
         public static List<Entry> GetChartEntries(string colName, Dictionary<string, List<long>> result, string color = "#FF1943")
         {
             long age = result["Age"][0];

@@ -13,9 +13,11 @@
                    FontAttributes = "Bold"/>
             </Frame>
 
-            <Label Text="下記の質問に回答してください。" 
+            <Label x:Name="labelInputCheck"
+                   Text="下記の質問に回答してください。" 
                    TextColor="DarkBlue"
-                   FontSize="20"/>
+                   FontSize="20"
+                   FontAttributes = "Bold"/>
 
             <!-- 入力フォーム -->
             <Grid HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="360" RowSpacing="10">
@@ -35,14 +37,22 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- 質問項目の列挙 -->
-                <Label Grid.Row="1" Text="Q1.現在の年齢は？（歳）"  TextColor="DarkBlue" FontSize="18"/>
+                <Label Grid.Row="1" Text="Q1.現在の年齢は？（歳）"  TextColor="Black" FontSize="16"/>
                 <Entry x:Name="inputAge" Grid.Row="2" Grid.Column="1" Keyboard="Numeric"/>
-                <Label Grid.Row="3" Text="Q2.現在の年収は？（万円）" TextColor="DarkBlue" FontSize="18"/>
+                <Label Grid.Row="3" Text="Q2.現在の年収は？（万円）" TextColor="Black" FontSize="16"/>
                 <Entry x:Name="inputAnnualIncome" Grid.Row="4" Grid.Column="1" Keyboard="Numeric"/>
-                <Label Grid.Row="5" Text="Q3.毎月の支出は？（万円）" TextColor="DarkBlue" FontSize="18"/>
-                <Entry x:Name="inputMonthlyExpenditure" Grid.Row="6" Grid.Column="1" Keyboard="Numeric" />
-                <Label Grid.Row="7" Text="Q4.現在の資産総額は？（万円）" TextColor="DarkBlue" FontSize="18"/>
+                <Label Grid.Row="5" Text="Q3.毎月の生活費は？（万円）" TextColor="Black" FontSize="16"/>
+                <Entry x:Name="inputMonthlyExpenditure" Grid.Row="6" Grid.Column="1" Keyboard="Numeric"/>
+                <Label Grid.Row="7" Text="Q4.現在の資産額は？（万円）" TextColor="Black" FontSize="16"/>
                 <Entry x:Name="inputAsset" Grid.Row="8" Grid.Column="1" Keyboard="Numeric" />
+                <Label Grid.Row="9" Text="Q5.結婚の予定は？（選択）" TextColor="Black" FontSize="16"/>
+                <Picker Title="回答" Grid.Row="10" Grid.Column="1" TextColor="Black" FontSize="16">
+                    <Picker.Items>
+                        <x:String>既に結婚している</x:String>
+                        <x:String>将来結婚する予定</x:String>
+                        <x:String>予定はない</x:String>
+                    </Picker.Items>
+                </Picker>
             </Grid>
 
             <!--結果を表示ボタン-->
@@ -55,7 +65,6 @@
                 FontSize="24"
                 FontAttributes = "Bold"
                 HorizontalOptions="Center"/>
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

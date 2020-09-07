@@ -30,7 +30,8 @@ namespace LifePlanProto
             Dictionary<string, List<long>> result = APIMain.GetSimulationResult(userInput);
 
             // データを文字列で表示（確認用）
-            labelOutput.Text = APIMain.GetResultString(result);
+            // 計算過程を確認したい場合には、コメントを外す
+            // labelOutput.Text = APIMain.GetResultString(result);
 
             // 資産総額グラフを表示
             List<Entry> assetEntries = APIMain.GetChartEntries("TotalAsset", result, "#3200FF");
@@ -57,7 +58,7 @@ namespace LifePlanProto
             }
 
             // 収入グラフを表示
-            List<Entry> incomeEntries = APIMain.GetChartEntries("AnnualIncome", result, "#CC2504");
+            List<Entry> incomeEntries = APIMain.GetChartEntries("CashInFlow", result, "#CC2504");
             IncomeChart.Chart = new LineChart() 
             {
                 Entries = incomeEntries,
@@ -70,7 +71,7 @@ namespace LifePlanProto
             };
 
             // 支出グラフを表示
-            List<Entry> expEntries = APIMain.GetChartEntries("AnnualExpenditure", result, "#CC2504");
+            List<Entry> expEntries = APIMain.GetChartEntries("CashOutFlow", result, "#CC2504");
             ExpenditureChart.Chart = new LineChart()
             {
                 Entries = expEntries,

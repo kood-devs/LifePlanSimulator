@@ -4,79 +4,74 @@
              xmlns:local="clr-namespace:LifePlanProto" 
              xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="LifePlanProto.ResultPage">
-    
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
-            <!--タイトル-->
-            <Frame BackgroundColor="Blue" Padding="20" CornerRadius="0">
-                <Label Text="ライフプラン・シミュレーター"
-                   HorizontalTextAlignment="Center"
-                   TextColor="White"
-                   FontSize="24"
-                   FontAttributes = "Bold"/>
-            </Frame>
+            <StackLayout>
+                <!--タイトル-->
+                <Frame BackgroundColor="Blue" Padding="20" CornerRadius="0">
+                    <Label Text="ライフプラン・シミュレーター"
+                       HorizontalTextAlignment="Center"
+                       TextColor="White"
+                       FontSize="24"
+                       FontAttributes = "Bold"/>
+                </Frame>
 
-            <!--内部で保持しているデータをデバッグ用に表示-->
-            <Label x:Name="labelResult" 
-                Text="100歳まで生活できるか"
-                TextColor="Blue"
-                FontSize="32"
-                FontAttributes = "Bold"
-                HeightRequest="100"
-                HorizontalTextAlignment="Center"
-                Padding="20"/>
+                <!--100歳時点で資産残高が正かを表示-->
+                <Label x:Name="labelResult" 
+                    Text="100歳まで生活できるか"
+                    TextColor="Blue"
+                    FontSize="32"
+                    FontAttributes = "Bold"
+                    HeightRequest="100"
+                    HorizontalTextAlignment="Center"
+                    Padding="20"/>
 
-            <!--資産総額推移グラフを表示-->
-            <Label Text="資産総額推移"
-                TextColor="Black"
-                VerticalOptions="Start" 
-                HorizontalOptions="Start"
-                Padding="10"
-                FontSize="20"
-                FontAttributes = "Bold"/>
+                <!--資産総額推移グラフを表示-->
+                <Label Text="資産総額推移"
+                    TextColor="Black"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    Padding="10"
+                    FontSize="20"
+                    FontAttributes = "Bold"/>
+                <Frame BackgroundColor="LightSkyBlue" Padding="10" CornerRadius="0">
+                    <forms:ChartView x:Name="AssetChart" HeightRequest="200"/>
+                </Frame>
 
-            <Frame BackgroundColor="LightSkyBlue" Padding="10" CornerRadius="0">
-                <forms:ChartView x:Name="AssetChart" HeightRequest="200"/>
-            </Frame>
+                <!--収支グラフを表示-->
+                <Label Text="将来キャッシュインフロー"
+                       TextColor="Black"
+                       VerticalOptions="Start" 
+                       HorizontalOptions="Start"
+                       Padding="10"
+                       FontSize="20"
+                       FontAttributes = "Bold"/>
+                <Frame BackgroundColor="LightSkyBlue" Padding="10" CornerRadius="0">
+                    <forms:ChartView x:Name="IncomeChart" HeightRequest="200"/>
+                </Frame>
 
-            <!--収支グラフを表示-->
-            <Label Text="将来キャッシュインフロー"
-                   TextColor="Black"
-                   VerticalOptions="Start" 
-                   HorizontalOptions="Start"
-                   Padding="10"
-                   FontSize="20"
-                   FontAttributes = "Bold"/>
+                <!--支出グラフを表示-->
+                <Label Text="将来キャッシュアウトフロー"
+                       TextColor="Black"
+                       VerticalOptions="Start" 
+                       HorizontalOptions="Start"
+                       Padding="10"
+                       FontSize="20"
+                       FontAttributes = "Bold"/>
+                <Frame BackgroundColor="LightSkyBlue" Padding="10" CornerRadius="0">
+                    <forms:ChartView x:Name="ExpenditureChart" HeightRequest="200"/>
+                </Frame>
 
-            <Frame BackgroundColor="LightSkyBlue" Padding="10" CornerRadius="0">
-                <forms:ChartView x:Name="IncomeChart" HeightRequest="200"/>
-            </Frame>
-
-            <!--支出グラフを表示-->
-            <Label Text="将来キャッシュアウトフロー"
-                   TextColor="Black"
-                   VerticalOptions="Start" 
-                   HorizontalOptions="Start"
-                   Padding="10"
-                   FontSize="20"
-                   FontAttributes = "Bold"/>
-
-            <Frame BackgroundColor="LightSkyBlue" Padding="10" CornerRadius="0">
-                <forms:ChartView x:Name="ExpenditureChart" HeightRequest="200"/>
-            </Frame>
-
-            <!--内部で保持しているデータをデバッグ用に表示-->
-            <Label x:Name="labelOutput" 
-                   Text="デバッグ用にデータを表示"
-                   TextColor="Black"
-                   FontSize="10"
-                   HeightRequest="1000"
-                   Padding="10"
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" />
-            
-        </StackLayout>
+                <!--内部で保持しているデータをデバッグ用に表示-->
+                <Label x:Name="labelOutput" 
+                       Text=""
+                       TextColor="Black"
+                       FontSize="10"
+                       HeightRequest="1000"
+                       Padding="10"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
